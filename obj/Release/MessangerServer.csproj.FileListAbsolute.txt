@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\MessangerServer.exe.config
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\MessangerServer.exe
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\MessangerServer.pdb
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\EntityFramework.dll
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\EntityFramework.xml
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Release\ru\EntityFramework.resources.dll
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Release\MessangerServer.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Release\MessangerServer.csproj.CopyComplete
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Release\MessangerServer.exe
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Release\MessangerServer.pdb

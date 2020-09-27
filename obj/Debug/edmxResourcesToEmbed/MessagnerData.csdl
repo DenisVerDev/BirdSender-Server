@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsersDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ChatDialogs">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstUserId" Type="Int32" />
+    <Property Name="SecondUserId" Type="Int32" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__ChatDialo__First__49C3F6B7" FromRole="ChatDialogs" ToRole="Users" />
+    <NavigationProperty Name="Users1" Relationship="Self.FK__ChatDialo__Secon__4AB81AF0" FromRole="ChatDialogs" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="ChatGroups">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Owner" Type="Int32" />
+    <Property Name="IsPublic" Type="Boolean" />
+    <Property Name="CreationDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__ChatGroup__Owner__4F7CD00D" FromRole="ChatGroups" ToRole="Users" />
+    <NavigationProperty Name="ChatMembers" Relationship="Self.FK__ChatMembe__ChatI__52593CB8" FromRole="ChatGroups" ToRole="ChatMembers" />
+  </EntityType>
+  <EntityType Name="ChatMembers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ChatId" Type="Int32" />
+    <Property Name="UserId" Type="Int32" />
+    <NavigationProperty Name="ChatGroups" Relationship="Self.FK__ChatMembe__ChatI__52593CB8" FromRole="ChatMembers" ToRole="ChatGroups" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__ChatMembe__UserI__534D60F1" FromRole="ChatMembers" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreationDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="ChatDialogs" Relationship="Self.FK__ChatDialo__First__49C3F6B7" FromRole="Users" ToRole="ChatDialogs" />
+    <NavigationProperty Name="ChatDialogs1" Relationship="Self.FK__ChatDialo__Secon__4AB81AF0" FromRole="Users" ToRole="ChatDialogs" />
+    <NavigationProperty Name="ChatGroups" Relationship="Self.FK__ChatGroup__Owner__4F7CD00D" FromRole="Users" ToRole="ChatGroups" />
+    <NavigationProperty Name="ChatMembers" Relationship="Self.FK__ChatMembe__UserI__534D60F1" FromRole="Users" ToRole="ChatMembers" />
+  </EntityType>
+  <Association Name="FK__ChatDialo__First__49C3F6B7">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ChatDialogs" Type="Self.ChatDialogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChatDialogs">
+        <PropertyRef Name="FirstUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChatDialo__Secon__4AB81AF0">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ChatDialogs" Type="Self.ChatDialogs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChatDialogs">
+        <PropertyRef Name="SecondUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChatGroup__Owner__4F7CD00D">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ChatGroups" Type="Self.ChatGroups" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChatGroups">
+        <PropertyRef Name="Owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChatMembe__ChatI__52593CB8">
+    <End Role="ChatGroups" Type="Self.ChatGroups" Multiplicity="0..1" />
+    <End Role="ChatMembers" Type="Self.ChatMembers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ChatGroups">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChatMembers">
+        <PropertyRef Name="ChatId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChatMembe__UserI__534D60F1">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="ChatMembers" Type="Self.ChatMembers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ChatMembers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="UsersDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChatDialogs" EntityType="Self.ChatDialogs" />
+    <EntitySet Name="ChatGroups" EntityType="Self.ChatGroups" />
+    <EntitySet Name="ChatMembers" EntityType="Self.ChatMembers" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__ChatDialo__First__49C3F6B7" Association="Self.FK__ChatDialo__First__49C3F6B7">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ChatDialogs" EntitySet="ChatDialogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChatDialo__Secon__4AB81AF0" Association="Self.FK__ChatDialo__Secon__4AB81AF0">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ChatDialogs" EntitySet="ChatDialogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChatGroup__Owner__4F7CD00D" Association="Self.FK__ChatGroup__Owner__4F7CD00D">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ChatGroups" EntitySet="ChatGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChatMembe__ChatI__52593CB8" Association="Self.FK__ChatMembe__ChatI__52593CB8">
+      <End Role="ChatGroups" EntitySet="ChatGroups" />
+      <End Role="ChatMembers" EntitySet="ChatMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChatMembe__UserI__534D60F1" Association="Self.FK__ChatMembe__UserI__534D60F1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ChatMembers" EntitySet="ChatMembers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

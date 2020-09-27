@@ -1,0 +1,25 @@
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\MessangerServer.exe.config
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\MessangerServer.exe
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\MessangerServer.pdb
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Debug\MessangerServer.csproj.CopyComplete
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Debug\MessangerServer.exe
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Debug\MessangerServer.pdb
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\MessangerServer.exe.config
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\MessangerServer.exe
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\MessangerServer.pdb
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\MessangerServer.csprojAssemblyReference.cache
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\MessangerServer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\MessangerServer.csproj.CopyComplete
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\MessangerServer.exe
+C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\MessangerServer.pdb
+C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Debug\MessangerServer.csprojAssemblyReference.cache

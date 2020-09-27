@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище UsersDataModelContainer" CdmEntityContainer="UsersDataEntities">
+    <EntitySetMapping Name="ChatDialogs">
+      <EntityTypeMapping TypeName="UsersDataModel.ChatDialogs">
+        <MappingFragment StoreEntitySet="ChatDialogs">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="FirstUserId" ColumnName="FirstUserId" />
+          <ScalarProperty Name="SecondUserId" ColumnName="SecondUserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChatGroups">
+      <EntityTypeMapping TypeName="UsersDataModel.ChatGroups">
+        <MappingFragment StoreEntitySet="ChatGroups">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="IsPublic" ColumnName="IsPublic" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChatMembers">
+      <EntityTypeMapping TypeName="UsersDataModel.ChatMembers">
+        <MappingFragment StoreEntitySet="ChatMembers">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ChatId" ColumnName="ChatId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="UsersDataModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
