@@ -23,3 +23,15 @@ C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\Messanger
 C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\MessangerServer.exe
 C:\Users\User\Desktop\denis apps\MyMessanger\MessangerServer\obj\Debug\MessangerServer.pdb
 C:\Users\admin\Desktop\MyMessanger\MessangerServer\obj\Debug\MessangerServer.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\MessangerServer.exe.config
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\MessangerServer.exe
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\MessangerServer.pdb
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\diplom\BirdSender-Server\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.csproj.CopyComplete
+C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.exe
+C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.pdb
