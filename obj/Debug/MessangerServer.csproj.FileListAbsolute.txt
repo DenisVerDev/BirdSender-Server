@@ -35,3 +35,16 @@ C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.csproj
 C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.csproj.CopyComplete
 C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.exe
 C:\Users\admin\Desktop\diplom\BirdSender-Server\obj\Debug\MessangerServer.pdb
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\MessangerServer.exe.config
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\MessangerServer.exe
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\MessangerServer.pdb
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFramework.dll
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFramework.SqlServer.dll
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFramework.xml
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFramework.SqlServer.xml
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\ru\EntityFramework.resources.dll
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.csproj.AssemblyReference.cache
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.csproj.CoreCompileInputs.cache
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\Messange.C19D5E99.Up2Date
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.exe
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.pdb
