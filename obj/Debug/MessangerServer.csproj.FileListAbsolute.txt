@@ -42,7 +42,6 @@ D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFr
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFramework.SqlServer.dll
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFramework.xml
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\EntityFramework.SqlServer.xml
-D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\ru\EntityFramework.resources.dll
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.csproj.AssemblyReference.cache
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.csproj.CoreCompileInputs.cache
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\Messange.C19D5E99.Up2Date
