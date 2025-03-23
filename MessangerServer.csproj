@@ -51,13 +51,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ChannelModule">
+      <HintPath>..\Server renovation\ChannelModule\ChannelModule\bin\Debug\ChannelModule.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientModule">
+      <HintPath>..\Server renovation\ClientModule\ClientModule\bin\Debug\ClientModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DatabaseModule">
+      <HintPath>..\Server renovation\DatabaseModule\DatabaseModule\bin\Debug\DatabaseModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DataModule">
+      <HintPath>..\Server renovation\DataModule\DataModule\bin\Debug\DataModule.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MessageModule">
+      <HintPath>..\Server renovation\MessageModule\MessageModule\bin\Debug\MessageModule.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationFramework" />
+    <Reference Include="ServiceModule">
+      <HintPath>..\Server renovation\ServiceModule\ServiceModule\bin\Debug\ServiceModule.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -73,49 +91,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chat.cs" />
-    <Compile Include="Group.cs" />
-    <Compile Include="Channel.cs" />
-    <Compile Include="Groups.cs">
-      <DependentUpon>MessangerData.tt</DependentUpon>
-    </Compile>
-    <Compile Include="IClientResponse.cs" />
-    <Compile Include="IMSGContract.cs" />
-    <Compile Include="Message.cs" />
-    <Compile Include="MessageException.cs" />
-    <Compile Include="MessageSerializer.cs" />
-    <Compile Include="MessangerData.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MessangerData.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MessangerData.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MessangerData.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MessangerData.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MessangerData.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="MsgService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="Users.cs">
-      <DependentUpon>MessangerData.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="MessangerData.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MessangerData.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="MessangerData.edmx.diagram">
-      <DependentUpon>MessangerData.edmx</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -132,18 +112,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="MessangerData.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MessangerData.edmx</DependentUpon>
-      <LastGenOutput>MessangerData.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="MessangerData.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MessangerData.edmx</DependentUpon>
-      <LastGenOutput>MessangerData.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
