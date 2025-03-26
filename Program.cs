@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using dm = DataModule;
 using sm = ServiceModule;
 using clm = ClientModule;
+using LoggerModule;
 
 namespace MessangerServer
 {
@@ -27,7 +28,7 @@ namespace MessangerServer
 
             ServiceHost sh = new ServiceHost(typeof(sm::MSGService));
             sh.Open();
-            dm::Logger.Log("Server started at " + DateTime.Now.ToString(), dm::Logger.MessageType.Attention);
+            Logger.Log("Server started at " + DateTime.Now.ToString(), Logger.MessageType.Attention);
             Console.ReadLine();
 
         }

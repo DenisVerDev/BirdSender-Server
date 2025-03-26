@@ -51,16 +51,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ChannelModule">
+    <Reference Include="ChannelModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Server renovation\ChannelModule\ChannelModule\bin\Debug\ChannelModule.dll</HintPath>
     </Reference>
-    <Reference Include="ClientModule">
+    <Reference Include="ClientModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Server renovation\ClientModule\ClientModule\bin\Debug\ClientModule.dll</HintPath>
     </Reference>
-    <Reference Include="DatabaseModule">
-      <HintPath>..\Server renovation\DatabaseModule\DatabaseModule\bin\Debug\DatabaseModule.dll</HintPath>
+    <Reference Include="DatabaseModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Server renovation\DatabaseModule\bin\Debug\netstandard2.0\DatabaseModule.dll</HintPath>
     </Reference>
-    <Reference Include="DataModule">
+    <Reference Include="DataModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Server renovation\DataModule\DataModule\bin\Debug\DataModule.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -69,14 +73,25 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="MessageModule">
+    <Reference Include="FSharp.Core, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\FSharp.Core.9.0.201\lib\netstandard2.0\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LoggerModule">
+      <HintPath>..\Server renovation\LoggerModule\bin\Debug\LoggerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="MessageModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Server renovation\MessageModule\MessageModule\bin\Debug\MessageModule.dll</HintPath>
     </Reference>
     <Reference Include="PresentationFramework" />
-    <Reference Include="ServiceModule">
+    <Reference Include="ServiceModule, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Server renovation\ServiceModule\ServiceModule\bin\Debug\ServiceModule.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.ComponentModel.Annotations.5.0.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
