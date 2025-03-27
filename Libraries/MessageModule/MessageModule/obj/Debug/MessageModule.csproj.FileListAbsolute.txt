@@ -1,0 +1,6 @@
+D:\4й курс\2 semeter\TP\Course project\Server renovation\MessageModule\MessageModule\bin\Debug\MessageModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\MessageModule\MessageModule\bin\Debug\MessageModule.pdb
+D:\4й курс\2 semeter\TP\Course project\Server renovation\MessageModule\MessageModule\obj\Debug\MessageModule.csproj.AssemblyReference.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\MessageModule\MessageModule\obj\Debug\MessageModule.csproj.CoreCompileInputs.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\MessageModule\MessageModule\obj\Debug\MessageModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\MessageModule\MessageModule\obj\Debug\MessageModule.pdb

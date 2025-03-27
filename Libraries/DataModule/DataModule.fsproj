@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="DataBank.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ChannelModule">
+      <HintPath>..\ChannelModule\ChannelModule\bin\Debug\ChannelModule.dll</HintPath>
+    </Reference>
+    <Reference Include="ClientModule">
+      <HintPath>..\ClientModule\ClientModule\bin\Debug\ClientModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DatabaseModule">
+      <HintPath>..\DatabaseModule\bin\Debug\netstandard2.0\DatabaseModule.dll</HintPath>
+    </Reference>
+    <Reference Include="LoggerModule">
+      <HintPath>..\LoggerModule\bin\Debug\LoggerModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
