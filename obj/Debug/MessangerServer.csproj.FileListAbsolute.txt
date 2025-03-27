@@ -58,7 +58,6 @@ D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\ClientMo
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\ClientModule.dll.config
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\DatabaseModule.pdb
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\DataModule.pdb
-D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\DataModule.dll.config
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\MessageModule.pdb
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\ServiceModule.pdb
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\ServiceModule.dll.config
@@ -84,3 +83,4 @@ D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\zh-Hant\
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\System.ComponentModel.Annotations.dll
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.csproj.SuggestedBindingRedirects.cache
 D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\obj\Debug\MessangerServer.exe.config
+D:\4й курс\2 semeter\TP\Course project\BirdSender-Server\bin\Debug\DataModule.xml
