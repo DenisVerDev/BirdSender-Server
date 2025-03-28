@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DataModule\\DataModule.fsproj": {}
+    "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DataModule\\DataModule.fsproj": {}
   },
   "projects": {
-    "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DataModule\\DataModule.fsproj": {
+    "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DataModule\\DataModule.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DataModule\\DataModule.fsproj",
+        "projectUniqueName": "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DataModule\\DataModule.fsproj",
         "projectName": "DataModule",
-        "projectPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DataModule\\DataModule.fsproj",
+        "projectPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DataModule\\DataModule.fsproj",
         "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
-        "outputPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DataModule\\obj\\",
+        "outputPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DataModule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

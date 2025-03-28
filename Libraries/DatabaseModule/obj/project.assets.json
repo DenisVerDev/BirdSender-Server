@@ -467,11 +467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DatabaseModule\\DatabaseModule.fsproj",
+      "projectUniqueName": "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DatabaseModule\\DatabaseModule.fsproj",
       "projectName": "DatabaseModule",
-      "projectPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DatabaseModule\\DatabaseModule.fsproj",
+      "projectPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DatabaseModule\\DatabaseModule.fsproj",
       "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
-      "outputPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DatabaseModule\\obj\\",
+      "outputPath": "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DatabaseModule\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

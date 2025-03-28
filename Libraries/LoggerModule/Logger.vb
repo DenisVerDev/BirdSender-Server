@@ -1,7 +1,5 @@
 ﻿Imports System
 
-' У VB "Module" — це статичний аналог класу.
-' Він зручний, якщо ви хочете викликати Log без створення екземпляра.
 Public Module Logger
 
     Public Enum MessageType

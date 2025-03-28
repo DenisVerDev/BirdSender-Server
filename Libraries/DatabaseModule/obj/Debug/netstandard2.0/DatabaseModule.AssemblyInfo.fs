@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("DatabaseModule")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+144853d2bd8f00ebf24036b3dc44cf3fe9184fee")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("DatabaseModule")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("DatabaseModule")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

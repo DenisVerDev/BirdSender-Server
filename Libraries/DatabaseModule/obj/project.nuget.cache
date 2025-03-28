@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JMbSgKzp0aQ=",
+  "dgSpecHash": "z5qC81DvX0w=",
   "success": true,
-  "projectFilePath": "D:\\4й курс\\2 semeter\\TP\\Course project\\Server renovation\\DatabaseModule\\DatabaseModule.fsproj",
+  "projectFilePath": "D:\\4й курс\\2 semeter\\TP\\Course project\\BirdSender-Server\\Libraries\\DatabaseModule\\DatabaseModule.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\Денис\\.nuget\\packages\\entityframework\\6.5.0\\entityframework.6.5.0.nupkg.sha512",
     "C:\\Users\\Денис\\.nuget\\packages\\fsharp.core\\9.0.201\\fsharp.core.9.0.201.nupkg.sha512",
