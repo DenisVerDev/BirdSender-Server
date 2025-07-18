@@ -1,11 +1,11 @@
-BirdSender Server
-=================
+# BirdSender Server
+WCF application for hosting and managing server functions of the BirdSender messenger.
 
-MSSQLServer
------------
-version 14.0.2027.2
-bin/Debug/ServerData/Users.mdf - source db
+Program's libraries were made using **C#**, **F#** and **VB.NET**.
 
-Tip
----
-**run server as administrator**
+See screenshots for startup visuals.
+
+## Technologies
+- .NET 4.7.2 and WCF
+- EntityFramework
+- FSharp.Core
