@@ -1,0 +1,9 @@
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\bin\Debug\ChannelModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\bin\Debug\ChannelModule.pdb
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\bin\Debug\MessageModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\bin\Debug\MessageModule.pdb
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\obj\Debug\ChannelModule.csproj.AssemblyReference.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\obj\Debug\ChannelModule.csproj.CoreCompileInputs.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\obj\Debug\ChannelM.82649F87.Up2Date
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\obj\Debug\ChannelModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\ChannelModule\ChannelModule\obj\Debug\ChannelModule.pdb

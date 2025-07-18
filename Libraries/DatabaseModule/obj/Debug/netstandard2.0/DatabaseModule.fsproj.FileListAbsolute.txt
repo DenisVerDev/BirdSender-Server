@@ -1,0 +1,11 @@
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\bin\Debug\netstandard2.0\DatabaseModule.deps.json
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\bin\Debug\netstandard2.0\DatabaseModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\bin\Debug\netstandard2.0\DatabaseModule.pdb
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\bin\Debug\netstandard2.0\DatabaseModule.xml
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\obj\Debug\netstandard2.0\DatabaseModule.fsproj.AssemblyReference.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\obj\Debug\netstandard2.0\DatabaseModule.AssemblyInfoInputs.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\obj\Debug\netstandard2.0\DatabaseModule.AssemblyInfo.fs
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\obj\Debug\netstandard2.0\DatabaseModule.fsproj.CoreCompileInputs.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\obj\Debug\netstandard2.0\DatabaseModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\obj\Debug\netstandard2.0\DatabaseModule.xml
+D:\4й курс\2 semeter\TP\Course project\Server renovation\DatabaseModule\obj\Debug\netstandard2.0\DatabaseModule.pdb

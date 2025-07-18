@@ -1,0 +1,10 @@
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\bin\Debug\LoggerModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\bin\Debug\LoggerModule.pdb
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\bin\Debug\LoggerModule.xml
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\obj\Debug\LoggerModule.vbproj.AssemblyReference.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\obj\Debug\LoggerModule.Resources.resources
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\obj\Debug\LoggerModule.vbproj.GenerateResource.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\obj\Debug\LoggerModule.vbproj.CoreCompileInputs.cache
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\obj\Debug\LoggerModule.dll
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\obj\Debug\LoggerModule.xml
+D:\4й курс\2 semeter\TP\Course project\Server renovation\LoggerModule\obj\Debug\LoggerModule.pdb
