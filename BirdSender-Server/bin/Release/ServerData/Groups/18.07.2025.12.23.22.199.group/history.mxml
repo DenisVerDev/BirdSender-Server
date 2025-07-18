@@ -1,0 +1,21 @@
+<Message>
+<Id>0</Id>
+<Address>18.07.2025.12.23.22.199.group</Address>
+<Username>Bot</Username>
+<SendTime>18.07.2025 12:23:22</SendTime>
+<Text>[service type=ivitation, admin=DenVerDev, name=Test Group]DenVerDev welcome to the group</Text>
+</Message>
+<Message>
+<Id>1</Id>
+<Address>18.07.2025.12.23.22.199.group</Address>
+<Username>Bot</Username>
+<SendTime>18.07.2025 12:23:22</SendTime>
+<Text>[service type=ivitation, admin=DenVerDev, name=Test Group]Andrew1995 welcome to the group</Text>
+</Message>
+<Message>
+<Id>2</Id>
+<Address>18.07.2025.12.23.22.199.group</Address>
+<Username>DenVerDev</Username>
+<SendTime>18.07.2025 12:23:35</SendTime>
+<Text>[text]test test message</Text>
+</Message>
